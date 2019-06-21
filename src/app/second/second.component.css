@@ -1,0 +1,21 @@
+.box1{
+    background-color: lightgreen;
+    color: darkred;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.box2{
+    background-color: lightseagreen;
+    color: darkred;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+}

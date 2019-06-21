@@ -1,0 +1,11 @@
+
+<div [ngClass]="theme" [ngStyle]="{'border-style':'solid','border-width':'2px','border-color':bcolor}">
+  <h3>  {{data}}</h3>
+      <ul>
+          <li *ngFor="let x of items">{{x}}</li>
+      </ul>
+    <hr>
+    <input type="color" [(ngModel)]="bcolor">
+    <hr>
+    <button (click)="toggleTheme()">Change theme</button>
+</div>
